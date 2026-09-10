@@ -20,11 +20,11 @@ if [[ -z "$NO_COLOR" && "$CLICOLOR" != 0 ]]; then
     bold '[1m'
     dim '[2m'
     faint '[2m'
-    coursive '[3m'
+    cursive '[3m'
     italic '[3m'
     underline '[4m'
     blink '[5m'
-    inveverse '[7m'
+    inverse '[7m'
     reverse '[7m'
     hidden '[8m'
     conceal '[8m'
@@ -35,11 +35,11 @@ if [[ -z "$NO_COLOR" && "$CLICOLOR" != 0 ]]; then
 
     # Reset Modificators
     reset_text '[22m'
-    no_coursive '[23m'
+    no_cursive '[23m'
     no_italic '[23m'
     no_underline '[24m'
     no_blink '[25m'
-    no_inveverse '[27m'
+    no_inverse '[27m'
     no_reverse '[27m'
     no_hidden '[28m'
     no_strike '[29m'
@@ -119,11 +119,11 @@ if [[ -z "$NO_COLOR" && "$CLICOLOR" != 0 ]]; then
     raw_bold '1'
     raw_dim '2'
     raw_faint '2'
-    raw_coursive '3'
+    raw_cursive '3'
     raw_italic '3'
     raw_underline '4'
     raw_blink '5'
-    raw_inveverse '7'
+    raw_inverse '7'
     raw_reverse '7'
     raw_hidden '8'
     raw_conceal '8'
@@ -133,11 +133,11 @@ if [[ -z "$NO_COLOR" && "$CLICOLOR" != 0 ]]; then
     raw_overline '53'
 
     raw_reset_text '22'
-    raw_no_coursive '23'
+    raw_no_cursive '23'
     raw_no_italic '23'
     raw_no_underline '24'
     raw_no_blink '25'
-    raw_no_inveverse '27'
+    raw_no_inverse '27'
     raw_no_reverse '27'
     raw_no_hidden '28'
     raw_no_strike '29'
@@ -177,9 +177,9 @@ if [[ -z "$NO_COLOR" && "$CLICOLOR" != 0 ]]; then
     raw_bg_default '49'
     raw_bg_base '49'
     raw_bg_base1 '47;107'
-    raw_white '47;107' # Do not use this. Just for compatibility
+    raw_bg_white '47;107' # Do not use this. Just for compatibility
     raw_bg_base2 '47'
-    raw_bg_light_grey '47m' # Do not use this. Just for compatibility
+    raw_bg_light_grey '47' # Do not use this. Just for compatibility
     raw_bg_base3 '40;100'
     raw_bg_grey '40;100'  # Do not use this. Just for compatibility
     raw_bg_base4 '40'
